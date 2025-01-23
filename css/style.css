@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+nav {
+  background-color: blue;
+  padding: 15px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+.nav-link {
+  list-style: none;
+  display: flex;
+}
+.nav-link li {
+  margin-right: 20px;
+}
+.nav-link a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+a:hover {
+  color: yellow;
+}
+/* first Section */
+.content {
+  text-align: center;
+  background-image: url("../images/1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#button-container {
+  text-align: center;
+}
+.my-button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
